@@ -15,6 +15,7 @@
 		D17E4064239955BB00393245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17E4062239955BB00393245 /* LaunchScreen.storyboard */; };
 		D17E406F239955BC00393245 /* PencilKitDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17E406E239955BC00393245 /* PencilKitDemoTests.swift */; };
 		D17E407A239955BC00393245 /* PencilKitDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17E4079239955BC00393245 /* PencilKitDemoUITests.swift */; };
+		D17E40892399574500393245 /* PencilKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17E40882399574500393245 /* PencilKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D17E4075239955BC00393245 /* PencilKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PencilKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17E4079239955BC00393245 /* PencilKitDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitDemoUITests.swift; sourceTree = "<group>"; };
 		D17E407B239955BC00393245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D17E40882399574500393245 /* PencilKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PencilKit.framework; path = System/Library/Frameworks/PencilKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D17E40892399574500393245 /* PencilKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				D17E406D239955BC00393245 /* PencilKitDemoTests */,
 				D17E4078239955BC00393245 /* PencilKitDemoUITests */,
 				D17E4055239955B800393245 /* Products */,
+				D17E40872399574500393245 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +130,14 @@
 				D17E407B239955BC00393245 /* Info.plist */,
 			);
 			path = PencilKitDemoUITests;
+			sourceTree = "<group>";
+		};
+		D17E40872399574500393245 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D17E40882399574500393245 /* PencilKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
